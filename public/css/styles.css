@@ -41,9 +41,12 @@ Descripciones: 16px
     margin:0;
     
 }
-.burger-menu{
+.burger-menu {
     border-radius: 5px;
-    box-sizing: border-box;
+    border-left: 8px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
     
 }
 .home-main-visita h2{
