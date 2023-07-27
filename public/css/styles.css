@@ -15,6 +15,37 @@ Descripciones: 16px
     font-size: 12px;
     background-color: #EAC926;
 }
+.home-header-logo{
+    padding: 8px;
+}
+.home-header-button{
+    text-align: justify;
+}
+.header-cuotas{
+    text-align: center;
+    padding: 8px;
+    font-size: 10px;
+}
+.nav-bar ul{
+  text-align: justify;
+  border:0;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar2{
+    padding-top: 8px;
+}
+.nav-bar2 ul{
+    border: 0;
+    padding: 0;
+    margin:0;
+    
+}
+.burger-menu{
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
 .home-main-visita h2{
     font-size: 24px;
 }
@@ -23,4 +54,31 @@ Descripciones: 16px
 }
 .home-main-visita br{
     font-size: 16px;
+}
+.home-main-ofertas{
+    font-size: 24px;
+}
+.home-main-ofertas p{
+    font-size: 18px;
+}
+.home-main-ofertas br{
+    font-size: 16px;
+}
+.footer-section{
+    text-align: center;
+    border: 0 auto;
+    color:#03264C;
+}
+.footer-section{
+    font-size: 14px;
+}
+.footer-section i{
+    font-size: 2em;
+    margin:8px;
+}
+.footer-section p{
+    margin: 0;
+}
+.footer-section h4{
+    margin:0;
 }
