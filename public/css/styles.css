@@ -52,6 +52,9 @@ Descripciones: 16px
     color:white;
 
 }
+.home-main {
+    width: 90%;
+}
 .home-main-visita h2{
     font-size: 24px;
 }
@@ -69,6 +72,10 @@ Descripciones: 16px
 }
 .home-main-ofertas br{
     font-size: 16px;
+}
+.ofertas {
+    border-top: solid 1px #ebebeb;
+    border:15px;
 }
 .footer{
     text-align: center;
