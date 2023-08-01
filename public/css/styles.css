@@ -24,7 +24,9 @@ Descripciones: 16px
 .header-cuotas{
     text-align: center;
     padding: 8px;
-    font-size: 10px;
+}
+.header-cuotas h5{
+    font-size: 12px;
 }
 .nav-bar ul{
   text-align: justify;
@@ -44,12 +46,10 @@ Descripciones: 16px
 .burger-menu {
     border-radius: 5px;
     background-color: #03264C;    
-    width: 40px;
-    height: 40px;
-    margin: 0 auto 30px;
-    display:inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
 
-    
 }
 .home-main-visita h2{
     font-size: 24px;
@@ -82,7 +82,7 @@ Descripciones: 16px
 }
 .footer-section i{
     font-size: 2em;
-    margin:8px;
+    margin-bottom:8px;
 }
 .footer-section p{
     margin: 0;
