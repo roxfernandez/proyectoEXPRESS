@@ -64,30 +64,21 @@ Descripciones: 16px
 .home-main-visita br{
     font-size: 16px;
 }
-.ofertas{
-    font-size: 24px;
+.main-ofertas{
+    width:90%;
+    background-color: white;
     border-top: solid 1px #ebebeb;
     border:15px;
-    width: 90%;
-    position: relative;
 }
-.oferta-cafetera {
-    border:15px;
+.oferta-img{
+    width: 90%;
     border-top: solid 1px #ebebeb;
-    width: 90%;
+    padding: 10px;
 }
-.home-main-ofertas p{
-    font-size: 18px;
+.fa-truck{
+    color:green;
 }
-.home-main-ofertas br{
-    font-size: 16px;
-}
-.oferta-macBook {
-
-}
-.oferta-macBook1{
-
-}
+ 
 .footer{
     text-align: center;
 }
