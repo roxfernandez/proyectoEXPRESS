@@ -15,21 +15,6 @@ Descripciones: 16px
     font-size: 12px;
     margin: 0;
 }
-.nav-bar ul{
-    text-align: justify;
-    border:0;
-    margin: 0;
-    padding: 0;
-  }
-  .nav-bar2{
-      padding-top: 8px;
-  }
-  .nav-bar2 ul{
-      border: 0;
-      padding: 0;
-      margin:0;
-      
-  }
 @media (min-width: 320px){ 
     .home-header{
         background-color: #EAC926;
@@ -47,6 +32,22 @@ Descripciones: 16px
 .header-cuotas h5{
     font-size: 12px;
 }
+
+.nav-bar ul{
+    text-align: justify;
+    border:0;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar2{
+      padding-top: 8px;
+  }
+  .nav-bar2 ul{
+      border: 0;
+      padding: 0;
+      margin:0;
+      
+  }
 .nav-bar {
   display: none;
 }
