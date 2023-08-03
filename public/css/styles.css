@@ -13,8 +13,27 @@ Descripciones: 16px
 .home-body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    background-color: #EAC926;
+    margin: 0;
 }
+.nav-bar ul{
+    text-align: justify;
+    border:0;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar2{
+      padding-top: 8px;
+  }
+  .nav-bar2 ul{
+      border: 0;
+      padding: 0;
+      margin:0;
+      
+  }
+@media (min-width: 320px){ 
+    .home-header{
+        background-color: #EAC926;
+    }  
 .home-header-logo{
     padding: 8px;
 }
@@ -28,55 +47,74 @@ Descripciones: 16px
 .header-cuotas h5{
     font-size: 12px;
 }
-.nav-bar ul{
-  text-align: justify;
-  border:0;
-  margin: 0;
-  padding: 0;
+.nav-bar {
+  display: none;
 }
 .nav-bar2{
-    padding-top: 8px;
-}
-.nav-bar2 ul{
-    border: 0;
-    padding: 0;
-    margin:0;
-    
+    display: none;
 }
 .burger-menu {
     border-radius: 5px;
-    background-color: #03264C;    
-    width: 15px;
-    height: 15px;
+    background-color: #03264C; 
     text-align: center;
     color:white;
-
+    padding:10px;
+    margin: auto;
+    justify-content: center;
+    width: 20px;
+    font-size: 20px;
 }
-.home-main {
-    width: 90%;
+.banner{
+    padding-top: 8px;
+    margin: 0;
+    border:0;
+}
+.home-main-visita {
+    background-color: rgb(234, 229, 229);
+    color:grey;
+    margin: 0;
 }
 .home-main-visita h2{
     font-size: 24px;
+    margin: 0;
+
 }
 .home-main-visita p{
     font-size: 18px;
+    margin: 0;
 }
 .home-main-visita br{
     font-size: 16px;
 }
 .main-ofertas{
     width:90%;
-    background-color: white;
     border-top: solid 1px #ebebeb;
     border:15px;
+    padding: 8px;
+    color:grey;
+    margin: 0;
 }
 .oferta-img{
     width: 90%;
     border-top: solid 1px #ebebeb;
     padding: 10px;
 }
+.oferta h2{
+    margin: 0;
+}
 .fa-truck{
     color:green;
+    border-radius: 50%;
+    text-align: justify;
+}
+
+.img{
+    width: 90%;
+    border-top: solid 1px #ebebeb;
+    padding: 10px;
+}
+.descripcion{
+    display: none;
 }
  
 .footer{
@@ -99,4 +137,31 @@ Descripciones: 16px
 }
 .footer-section h4{
     margin:0;
+}
+}
+@media(min-width:361px){
+.home-body{
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+.nav-bar ul{
+    text-align: justify;
+    border:0;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar2{
+      padding-top: 8px;
+  }
+  .nav-bar2 ul{
+      border: 0;
+      padding: 0;
+      margin:0;
+      
+  }
+  .burger-menu{
+    display: none;
+  }
+  .descripcion {
+    text-align: center;
+  }
 }
